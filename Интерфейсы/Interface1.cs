@@ -30,7 +30,7 @@ namespace Интерфейсы
             {
                 firma = f;
                 kol = k;
-                price = p;
+                price = p; 
                 god = g;
                 nomer = n;
                 moshnost = m;
