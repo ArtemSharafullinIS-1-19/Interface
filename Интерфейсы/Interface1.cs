@@ -17,7 +17,7 @@ namespace Интерфейсы
             void SellItem(int count_for_sell);
         }
 
-        class Items : IMoto
+        class Moto : IMoto
         {
             public string firma;
             public int kol;
@@ -26,7 +26,7 @@ namespace Интерфейсы
             public string nomer;
             public int moshnost;
 
-            public Items(string f, int k, int p, int g, int m, string n)
+            public Moto(string f, int k, int p, int g, int m, string n)
             {
                 firma = f;
                 kol = k;
